@@ -47,7 +47,7 @@ OSErr MyEventHandler(const AppleEvent *ev, AppleEvent *reply, SRefCon refcon)
 	directstr = (char *) malloc (sizeOfParam);
 	theErr = AEGetParamPtr(ev, keyDirectObject, typeChar, 
 						   &typeCode, (Ptr) directstr, 
-						   sizeOfParam+1, &actualSize);
+						   sizeOfParam, &actualSize);
 	theErr = AEPutParamPtr(reply, keyDirectObject, typeChar,
 						   directstr, actualSize );
 	free(directstr);
