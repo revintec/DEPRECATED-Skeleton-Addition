@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B02307B04CEFC3B00222988 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		3B02307D04CEFC3B00222988 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B2FE8417CDC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		3B02307F04CEFC3B00222988 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		3BF807050CE1264E0006E3E5 /* Skeleton Addition.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 3BF806F30CE1013C0006E3E5 /* Skeleton Addition.sdef */; };
+		3BF807300CE12E1D0006E3E5 /* Skeleton Addition.r in Rez */ = {isa = PBXBuildFile; fileRef = 3BF8072F0CE12E1D0006E3E5 /* Skeleton Addition.r */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		08FB77B2FE8417CDC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3B02308304CEFC3B00222988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B02308404CEFC3C00222988 /* Skeleton Addition.osax */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skeleton Addition.osax"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF806F30CE1013C0006E3E5 /* Skeleton Addition.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = "Skeleton Addition.sdef"; sourceTree = "<group>"; };
+		3BF8072F0CE12E1D0006E3E5 /* Skeleton Addition.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = "Skeleton Addition.r"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B02307E04CEFC3B00222988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B02307F04CEFC3B00222988 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Transform Window */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+				3B02308304CEFC3B00222988 /* Info.plist */,
+			);
+			name = "Transform Window";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				3BF806F30CE1013C0006E3E5 /* Skeleton Addition.sdef */,
+				3BF8072F0CE12E1D0006E3E5 /* Skeleton Addition.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77B2FE8417CDC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B02308404CEFC3C00222988 /* Skeleton Addition.osax */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B02307804CEFC3B00222988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B02307704CEFC3B00222988 /* Skeleton Addition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3015BB0CDFA6B70053F282 /* Build configuration list for PBXNativeTarget "Skeleton Addition" */;
+			buildPhases = (
+				3B02307804CEFC3B00222988 /* Headers */,
+				3B02307A04CEFC3B00222988 /* Resources */,
+				3BF8070F0CE128630006E3E5 /* ShellScript */,
+				3B02307C04CEFC3B00222988 /* Sources */,
+				3B02307E04CEFC3B00222988 /* Frameworks */,
+				3B02308004CEFC3B00222988 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skeleton Addition";
+			productInstallPath = "~/Library/ScriptingAdditions";
+			productName = "Transform Window";
+			productReference = 3B02308404CEFC3C00222988 /* Skeleton Addition.osax */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3B3015BA0CDFA6B70053F282 /* Build configuration list for PBXProject "Skeleton Addition" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Transform Window */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B02307704CEFC3B00222988 /* Skeleton Addition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B02307A04CEFC3B00222988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B02307B04CEFC3B00222988 /* InfoPlist.strings in Resources */,
+				3BF807050CE1264E0006E3E5 /* Skeleton Addition.sdef in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		3B02308004CEFC3B00222988 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF807300CE12E1D0006E3E5 /* Skeleton Addition.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BF8070F0CE128630006E3E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"Skeleton Addition.sdef",
+			);
+			outputPaths = (
+				"Skeleton Addition.r",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This rule builds an 'aete' version of the sdef; it is only necessary for pre-Leopard builds.\n/usr/bin/sdp -fa -o \"${SRCROOT}/Skeleton Addition.r\" \"${SRCROOT}/Skeleton Addition.sdef\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B02307C04CEFC3B00222988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B02307D04CEFC3B00222988 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3015B40CDFA6B70053F282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3B3015B50CDFA6B70053F282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3B3015B70CDFA6B70053F282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "~/Library/ScriptingAdditions";
+				PRODUCT_NAME = "Skeleton Addition";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = osax;
+			};
+			name = Debug;
+		};
+		3B3015B80CDFA6B70053F282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_VERSION = 4.0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "~/Library/ScriptingAdditions";
+				PRODUCT_NAME = "Skeleton Addition";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = osax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3015BA0CDFA6B70053F282 /* Build configuration list for PBXProject "Skeleton Addition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3015B40CDFA6B70053F282 /* Debug */,
+				3B3015B50CDFA6B70053F282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B3015BB0CDFA6B70053F282 /* Build configuration list for PBXNativeTarget "Skeleton Addition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3015B70CDFA6B70053F282 /* Debug */,
+				3B3015B80CDFA6B70053F282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

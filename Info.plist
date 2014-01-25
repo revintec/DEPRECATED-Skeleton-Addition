@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Skeleton Addition</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>osax</string>
+	<key>CFBundleSignature</key>
+	<string>ascr</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>OSAScriptingDefinition</key>
+	<string>Skeleton Addition.sdef</string>
+	<key>OSAXHandlers</key>
+	<dict>
+		<key>Events</key>
+		<dict>
+			<key>SKELSKEL</key>
+			<string>MyEventHandler</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

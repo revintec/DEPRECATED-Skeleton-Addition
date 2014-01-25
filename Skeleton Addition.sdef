@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<suite name="Skeleton Suite" code="SKEL" description="Things that this addition supports">
+		<command name="satest" code="SKELSKEL" description="Skeleton Addition test command">
+			<direct-parameter description="input" type="text"/>
+			<result description="output" type="text"/>
+		</command>
+	</suite>
+</dictionary>
